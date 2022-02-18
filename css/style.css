@@ -16,6 +16,10 @@ body {
   color: var(--primary-text-color);
   background-color: #fff;
 }
+img {
+  display: block;
+}
+
 h1,
 h2,
 h3,
@@ -154,6 +158,7 @@ ul {
   font-size: 44px;
   line-height: 1.36;
   padding-top: 200px;
+  text-align: center;
 
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -372,10 +377,9 @@ ul {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-colour);
-  margin-top: 20px;
   margin-bottom: 4px;
-  margin-left: 24px;
-  margin-right: 24px;
+  padding-left: 24px;
+  padding-top: 20px;
 }
 .portfolio-description {
   font-size: 16px;
@@ -383,6 +387,5 @@ ul {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   padding-bottom: 20px;
-  margin-left: 24px;
-  margin-right: 24px;
+  padding-left: 24px;
 }
