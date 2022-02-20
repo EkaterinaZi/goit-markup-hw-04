@@ -74,10 +74,9 @@ ul {
 }
 /*Шапка*/
 .header {
-  align-items: center;
   border-bottom-width: 2px;
   border-bottom-style: solid;
-  border-bottom-color: #c4c4c4;
+  border-bottom-color: #ececec;
 }
 .header .container {
   display: flex;
@@ -149,29 +148,31 @@ ul {
 /*Герой*/
 
 .hero {
-  min-height: 600px;
   background-color: var(--background);
-  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  padding-top: 200px;
   text-align: center;
-
+  max-width: 696px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button-hero {
-  display: inline-block;
+  display: block;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 32px;
   padding-right: 32px;
+
   border-radius: 4px;
   border: none;
 
@@ -185,15 +186,20 @@ ul {
   background-color: var(--accent-colour);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 .button-hero:hover,
 .button-hero:focus {
   background-color: #188ce8;
 }
 /*Особенности*/
+.features {
+  padding-top: 94px;
+}
 .features-list {
   display: flex;
-  padding-top: 94px;
 }
 .features-list li {
   width: 270px;
@@ -249,6 +255,12 @@ ul {
 .team-list li:not(:last-child) {
   margin-right: 30px;
 }
+.team-descriptional {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-left: 60px;
+  padding-right: 59px;
+}
 .team-member {
   font-weight: 500;
   font-size: 16px;
@@ -256,7 +268,6 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-colour);
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 .team-profession {
@@ -265,16 +276,15 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  padding-bottom: 30px;
 }
 /*Подвал*/
 .footer {
   background-color: var(--background);
-  min-height: 252px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-logo {
   display: inline-block;
-  padding-top: 60px;
   margin-bottom: 20px;
 
   font-family: Raleway;
@@ -295,9 +305,6 @@ ul {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-.footer-list {
-  padding-bottom: 60px;
-}
 .footer-contacts {
   font-style: normal;
   font-size: 14px;
@@ -309,9 +316,13 @@ ul {
   margin-bottom: 9px;
 }
 /*Портфолио*/
+.portfolio-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .button-list {
   display: flex;
-  padding-top: 45px;
   margin-bottom: 50px;
   justify-content: center;
 }
@@ -346,7 +357,6 @@ ul {
 
 /* Примеры работ*/
 .portfolio-list {
-  padding-bottom: 143px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -356,6 +366,10 @@ ul {
 .portfolio-item-down {
   border: 1px solid #eeeeee;
   border-top: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 .portfolio-item {
   margin-right: 30px;
@@ -378,14 +392,10 @@ ul {
   letter-spacing: 0.06em;
   color: var(--title-text-colour);
   margin-bottom: 4px;
-  padding-left: 24px;
-  padding-top: 20px;
 }
 .portfolio-description {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  padding-bottom: 20px;
-  padding-left: 24px;
 }
